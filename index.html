@@ -5,18 +5,18 @@
   </head>
   <body>
     <h1>Hello World!</h1>
-    We are using io.js <script>document.write(process.version)</script>
+    We are using NodeJS <script>document.write(process.version)</script>
     and Electron <script>document.write(process.versions['electron'])</script>.
 
     <hr>
-    <textarea rows="20" cols="90" id="droid-output" disabled="true"></textarea>
+    <textarea rows="20" cols="90" id="command-output" disabled="true"></textarea>
     <div id="status"></div>
     <hr>
 
     <script src="./gui-funct.js"></script>
     <script>
         // GLUE to the screen
-        function getDroidOutput() { return document.getElementById("droid-output");  };
+        function getCommandOutput() { return document.getElementById("command-output");  };
         function getStatus()      { return document.getElementById("status");  };
         // End of GLUE
 
