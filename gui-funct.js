@@ -25,11 +25,10 @@ function backgroundProcess() {
     const process = require('child_process');   // The power of Node.JS
 
     showOS();
-    
-    var child = (is.windows()) ? 
-             process.spawn('test.bat') 
-             :
-             process.spawn('/usr/bin/bash', ['./test.sh']);       //   process.spawn('./test.sh'); assumes exec permissions are set       
+    var cmd = (is.windows()) ? 'test.bat' : './test.sh';      
+    console.log('cmd:', cmd);
+        
+    var child = process.spawn(cmd); 
 
     child.on('error', function(err) {
       appendOutput('stderr: <'+err+'>' );
