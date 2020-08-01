@@ -1,7 +1,16 @@
 
-An HTML5 stand alone app using GitHub Electron (Chrome engine + Node.js) -- this is a GUI wrapper example that runs and process output of a bash shell command. 
+# Youtube to Mp3 Desktop converter
 
-# SETUP
+
+## How to build
+- Go [ytdl-org/youtube-dl: Command-line program to download videos from YouTube.com and other video sites](https://github.com/ytdl-org/youtube-dl) and get executable for your OS.
+- Put the executable in the root folder
+- Run build command
+```shell
+    npm run dist
+```
+
+# Original Readme
 
 1. Install GitHub's Electron
 2. Clone this repository
