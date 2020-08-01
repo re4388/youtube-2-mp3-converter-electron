@@ -10,6 +10,10 @@
     npm run dist
 ```
 
+## To do list
+- not try build on Linux
+- Mac build still have some issue, can not copy paste into field
+
 # Original Readme
 
 1. Install GitHub's Electron
