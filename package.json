@@ -33,9 +33,9 @@
   "author": "Ben Hu",
   "license": "MIT",
   "bugs": {
-    "url": "git+https://toadd"
+    "url": "git+https://github.com/re4388/youtube-2-mp3-converter-electron/issues"
   },
-  "homepage": "git+https://toadd",
+  "homepage": "git+https://github.com/re4388/youtube-2-mp3-converter-electron",
   "devDependencies": {
     "electron-prebuilt": "^0.32.2",
     "electron-builder": "^22.8.0"
